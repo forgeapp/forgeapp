@@ -229,7 +229,7 @@ function initContactForm() {
             // Debug: Mostrar parámetros que se enviarán
             console.log('Template params:', templateParams);
 
-            emailjs.send('service_q305vvs', 'template_qvhihgk', templateParams)
+            emailjs.send('service_2df62n8', 'template_qvhihgk', templateParams)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     button.textContent = '¡Enviado!';
